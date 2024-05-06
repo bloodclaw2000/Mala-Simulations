@@ -3,7 +3,7 @@
 """
 Created on Mon May  6 14:41:29 2024
 
-@author: max
+@author: Pablo
 """
 import numpy as np
 import mala
