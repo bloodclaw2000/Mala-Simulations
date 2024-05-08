@@ -1,6 +1,6 @@
 # Machine learning for computational materials science and chemistry with MALA. A Basic Fully Online Pipeline and Framework 
 ## Introduction
-In this project we show how a Materials Learning Algorithms (MALA) [MALA](https://github.com/mala-project/mala) Framework and Pipeline works.
+In this project we show how a Materials Learning Algorithms ([MALA](https://github.com/mala-project/mala)) Framework and Pipeline works.
 From the generation of the DFT data with Quantum Espresso, the conversion via descriptors to MALA,
 the training and testing of a neural network and finally the hyperparameter optimisation of the neural network (TODO in v3).
 
