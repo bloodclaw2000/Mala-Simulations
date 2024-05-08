@@ -17,7 +17,9 @@ MALA simulations are able to be run both through COLAB's environment  in [Colab 
 [Pytorch](https://pytorch.org/get-started/locally/) are needed, and works both in Windows and Linux Environments. [LAMMPS](https://www.lammps.org/) is optional but not needed as it needs special compiling [instructions](https://github.com/mala-project/mala/blob/develop/docs/source/install/installing_lammps.rst). 
 ### Data Conversion
 For Data conversion there is both a tool in the notebook and (as it is a slow process) optional .py files [befile](Sifoldermultiprocessing) [sifile](Sifoldermultiprocessing) to copy into materials folder to generate MALA conversion files using Multiprocessing.
-It is needed to create the /snapshots folder inside the materials folder manually
+It is needed to create the /snapshots folder inside the materials folder manually.
+
+If you only want to try the MALA ML models, there are also files uploaded for hands-on work.
 ### Results
 We use a NN in Mala to predict the LDOS of the different snapshots as a proof of concept of the MALA environment and framework.
 NN are very simple but are able to predict within <10meV/at the energy bands in Be2 systems and within <60meV in Si2 systems.
