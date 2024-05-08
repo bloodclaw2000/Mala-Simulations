@@ -1,0 +1,81 @@
+{
+    "fermi_energy_dft": 10.78,
+    "temperature": 299.98637294316444,
+    "number_of_electrons_exact": 8.0,
+    "band_energy_dft_calculation": 39.39439828089967,
+    "total_energy_dft_calculation": -214.70494579531186,
+    "grid_dimensions": [
+        24,
+        24,
+        36
+    ],
+    "electrons_per_atom": 4.0,
+    "number_of_electrons_from_eigenvals": 7.999842998856204,
+    "ibrav": 0,
+    "ecutwfc": 40.0,
+    "ecutrho": 160.0,
+    "degauss": 0.0019,
+    "pseudopotentials": {
+        "Si": "Si.pz-vbc.UPF"
+    },
+    "entropy_contribution_dft_calculation": -0.003189990783636572,
+    "voxel": {
+        "array": [
+            [
+                0.11196624626713857,
+                0.0,
+                0.0
+            ],
+            [
+                -0.05598312313356928,
+                0.09696556842349868,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.12757859571413585
+            ]
+        ]
+    },
+    "atoms": {
+        "numbers": [
+            14,
+            14
+        ],
+        "positions": [
+            [
+                -0.2114299831841004,
+                1.7093835760995748,
+                1.1702494397458578
+            ],
+            [
+                1.2941294320538022,
+                0.6874971159354186,
+                3.5906723338669737
+            ]
+        ],
+        "cell": [
+            [
+                2.6871899104113255,
+                0.0,
+                0.0
+            ],
+            [
+                -1.3435949552056627,
+                2.3271736421639684,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                4.59282944570889
+            ]
+        ],
+        "pbc": [
+            true,
+            true,
+            true
+        ]
+    }
+}

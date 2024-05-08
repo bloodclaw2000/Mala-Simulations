@@ -1,0 +1,46 @@
+
+&CONTROL
+   calculation      = 'scf'
+   verbosity        = 'high'
+   restart_mode     = 'from_scratch'
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = '../tmp/Si'
+   prefix           = 'Si'
+   pseudo_dir       = '../pseudo/'
+/
+&SYSTEM
+   ibrav            = 0
+   
+   
+   ecutwfc          = 40
+   ecutrho          = 160
+   nosym            = .true.
+   noinv            = .true.
+   occupations      = 'smearing'
+   degauss          = 0.0018874
+   smearing         = 'fermi-dirac'
+   ntyp             = 1
+   nat              = 2
+/
+&ELECTRONS
+   conv_thr         = 0.02
+   mixing_mode      = 'plain'
+   mixing_beta      = 0.1
+/
+
+ATOMIC_SPECIES
+ Si  28.086  Si.pz-vbc.UPF
+ 
+K_POINTS automatic
+8 8 8 0 0 0
+
+CELL_PARAMETERS angstrom
+2.6885612446528344 -0.18708383824226066 -0.10607309686034819
+-1.1824727247766613 2.190355261922415 0.1591826435304053
+-0.026365409199881062 0.018319299521798144 4.437360408046911      
+ATOMIC_POSITIONS crystal
+Si           0.3333333333       0.6666666666       0.2500000000 
+Si           0.6666666667       0.3333333333       0.7500000000 
+
+
